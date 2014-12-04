@@ -17,6 +17,8 @@ int subtmr = 0;
 
 unsigned char bufresp[20] = {0};
 
+char wificonnect();
+
 ////////////////////////////////////////////////////////////////////////////////
 unsigned int wifiTmr = 0, netStatusTmr = 0;
 void Timer1_interrupt() iv IVT_TIMER_1 ilevel 7 ics ICS_SOFT {
