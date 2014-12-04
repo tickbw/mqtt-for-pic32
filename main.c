@@ -6,8 +6,8 @@
 #include "wificonnect.h"
 #define NULL 0
 
-unsigned char   remoteipAddress[4]  = {5, 249,  143, 19 };
-int remotePort = 1883;
+unsigned char   remoteipAddress[4]  = {x, x,  x, x }; //ip of the broker server
+int remotePort = 1883;                                //port of the broker
 int localPort = 80;
 char socketHandle, socketHandlesub;
 char conn = 1;
